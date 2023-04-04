@@ -1,6 +1,3 @@
-
-
-
 const buildHTML = (XHR) => {
   // レスポンスの中から投稿されたメモの情報を抽出し、変数itemに格納
   const item = XHR.response.post;
